@@ -1,0 +1,80 @@
+body{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* this is a comment*/
+
+h1{
+    color:#083e73;
+    text-align: center;
+}
+
+p{
+    font-size:20px;
+}
+
+h1,h2{
+text-decoration: underline;}
+.btn {background-color: blue;
+
+
+} 
+/* id selecter*/
+.btn{
+    background-color: aquamarine;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    /* outline */
+    box shadow: 
+    
+}
+
+
+
+
+.intopara{
+
+}
+
+.article h2{
+    
+}
+ 
+
+
+
+
+
+
+
+
+ul li:nth-child(2){
+     color: red;
+}
+
+
+.seccondclass{
+    border: 2px solid #fff;
+    
+}
+
+/* form styles */
+form{
+    background-colour: aliceblue;
+    max-width: 600px;
+    /* margin vs padding */
+    /* padding: 20px; top bottom let and
+    margin: 20px 30px; top and bottom, le
+    /*margin: 10px 20px 30px 40px; */
+    /* top right bottom left */
+    padding: 20px;
+    margin: 20px auto;
+    border
+
+}
+
+input, textarea{
+    display: block;
+}
