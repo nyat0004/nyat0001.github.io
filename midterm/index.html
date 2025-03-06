@@ -3,9 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midterm</title>
+    <title>Solitary Seastar</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <h1>hello</h1>
+    <header>
+        <div class="header-content">
+            <img src="./images/pic 2 header.jpg" alt="Seastar resting on the shore">
+            <h1>Solitary Seastar</h1>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#journey">JOURNEY</a></li>
+            <li><a href="#reachout">REACH OUT</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="journey" class="intro">
+            <h2>Adventures of a Seastar</h2>
+            <div class="content">
+                <img src="./images/pic 1 back.jpg" alt="Tiny seastar">
+                <p></p>Golden perch, blue tang, sailfin molly, and Atlantic salmon; the ocean teems with life. From rainbow runners to needlefish and scaly dragonfish, the deep sea holds mysteries untold. Sea robins skim the ocean floor while parrotfish carve out homes in coral reefs. Anglerfish, with their bioluminescent lures, navigate the abyss, while butterflyfish flutter between sea anemones. The ever-curious boxfish, lionfish, and moonfish dance in the tides, creating a symphony of movement. Each species, from the smallest goby to the mighty marlin, plays a role in the vast aquatic web of life.
+                </p>
+            </div>
+        </section>
+        <section class="facts">
+            <h2>Interesting Facts About Seastars</h2>
+            <ul>
+                <li>Seastars have no brains or blood, yet they thrive in diverse marine environments.</li>
+                <li>They can regenerate lost limbs, making them resilient creatures of the sea.</li>
+                <li>Some species have over 40 arms, giving them an impressive star-like appearance.</li>
+                <li>Seastars use tiny tube feet to move across the ocean floor with surprising agility.</li>
+            </ul>
+        </section>
+        <section class="contact" id="reachout">
+            <h2>Get in Touch</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <fieldset>
+                    <legend>Would you like to explore seastars?</legend>
+                    <label><input type="radio" name="visit" value="yes"> Yes</label>
+                    <label><input type="radio" name="visit" value="no"> No</label>
+                    <label><input type="radio" name="visit" value="maybe"> Maybe</label>
+                </fieldset>
+                
+                <button type="submit">SUBMIT</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Solitary Seastar.</p>
+    </footer>
 </body>
 </html>
